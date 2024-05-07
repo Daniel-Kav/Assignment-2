@@ -19,6 +19,3 @@ The `.gitignore` file is used to specify intentionally untracked files to ignore
 | /name.file         |                 Starting with / specifies the pattern matches only files in the root folder                  |                                                              /name.file |
 | name.file          |                                         All files with the name.file                                         |                                               /name.file /lib/name.file |
 | lib.name.file      | Patterns specifying files in specific folders are always relative to root (even if you do not start with / ) |                                                          /lib/name.file |
-| `logs/`            |                                        Matches the "logs" directory.                                         |                                                                 `logs/` |
-| `!important.log`   |                            Excludes the "important.log" file from being ignored.                             |                                                        `!important.log` |
-| `# Comment`        |                         Lines starting with a hash (#) are comments and are ignored.                         |                                              `# Ignore temporary files` |
