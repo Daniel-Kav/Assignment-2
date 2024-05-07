@@ -1,8 +1,8 @@
 # Gitignore Cheatsheet
 
-The `.gitignore` file is used to specify intentionally untracked files to ignore. It uses glob patterns to match files and directories.
+The .gitignore file is used to specify intentionally untracked files to ignore. It uses glob patterns to match files and directories.
 
-### Rules for Matching Patterns in .gitignore Files
+# Rules for Matching Patterns in .gitignore Files
 
 | Pattern            |                                             Explanations/Matches                                             |                                                                Examples |
 | ------------------ | :----------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------: | --- |
